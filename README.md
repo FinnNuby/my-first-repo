@@ -1,2 +1,4 @@
 # my-first-repo
-Practice account for learning Git
+Bonjour everyone.
+This is my changes.
+Note: This is a test!
