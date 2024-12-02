@@ -1,0 +1,28 @@
+fun main () {
+    val scoreLevel1 = 79
+    val scoreLevel2 = 92
+    val scoreLevel3 = 86
+    
+    println("PLAYER 1 SCOREBOARD")
+    println("Level 1 : " + scoreLevel1)
+    println("Level 2 : " + scoreLevel2)
+    println("Level 3 : " + scoreLevel3)
+    
+   
+    val totalScore = scoreLevel1 + scoreLevel2 + scoreLevel3
+    val averageScore = totalScore/3
+    
+    println("YOUR TOTAL SCORE IS: " + totalScore)
+    println("YOUR AVERAGE SCORE IS: " + averageScore)
+    
+    
+    val boostMultiplier = 4
+    val scoreBoost = totalScore * boostMultiplier
+    val finalBoostedScore = totalScore + scoreBoost
+    
+    println("You received a boost multiplier!")
+    println("Your score will be multiplied by: " + boostMultiplier)
+    
+    println("Your FINAL SCORE is: " + finalBoostedScore)
+    
+}
