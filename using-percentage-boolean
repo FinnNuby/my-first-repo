@@ -1,0 +1,5 @@
+fun main () {
+    val waterTemp = 67
+    val isCold = waterTemp >= 0 && waterTemp <= 90
+    println(isCold)
+}
