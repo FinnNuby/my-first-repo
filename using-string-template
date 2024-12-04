@@ -1,0 +1,16 @@
+fun main() {
+    val myGradeScience = 89
+    val myGradeMath = 94
+    val myGradeComputer = 98
+    
+    println ("Student's Grades")
+    println ("Science: $myGradeScience")
+    println ("Math: $myGradeMath")
+    println ("Computer: $myGradeComputer")
+    
+    val myTotalGrade = myGradeScience + myGradeMath + myGradeComputer
+    println ("My total Grade: $myTotalGrade")
+    val myAverageGrade = myTotalGrade / 3
+    println ("My average Grade: $myAverageGrade")     
+   
+}
