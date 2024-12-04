@@ -1,0 +1,10 @@
+fun main() {
+    val a: Char = 'A'
+    val b: Char = 'P'
+    val c: Char = 'R'
+    val d: Char = 'I'
+    val e: Char = 'L'
+    
+    println("$a" + "$b" + "$c" + "$d" + "$e")
+   
+}
