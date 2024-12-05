@@ -1,0 +1,18 @@
+fun main() {
+    val hour = 9
+    val userName = "Alex"
+
+    if (hour <= 10) {
+        print("Good morning, ")
+    } else if (hour >= 20) {
+        print("Good evening, ")
+    } else {
+        print("Hello, ")
+    }
+
+    if (userName == "admin") {
+        println("what would you like to do?")
+    } else {
+        println("how can I help you, $userName?")
+    }
+}
