@@ -1,0 +1,16 @@
+fun main () {
+    
+    val catColor = "Japanese"
+    
+    when  {       
+        catColor == "White" -> {
+            println("You found Walter the White Cat!")        
+        } 
+        catColor == "Black" -> {
+            println("You found Tui the Tuxedo Cat!")
+        }
+        else -> {
+            println("You didn't catch any cats!")
+        }
+    }
+}
