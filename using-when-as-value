@@ -1,0 +1,10 @@
+fun main() {   
+    
+    val number = 100
+    when (number) {
+        1 -> println ("Missed Hit")
+        2,3,4,5 -> println ("Hit with the value $number")
+        6 -> println ("Critical Hit")
+        else -> println("You killed it!")
+    }
+}
