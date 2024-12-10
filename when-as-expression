@@ -1,0 +1,11 @@
+fun main() {   
+    
+    val temperature = 111
+    val test = when {
+        temperature <= 5 -> "Hot"   
+        temperature <= 8 -> "Cold"
+        temperature >= 10 -> "Very Cold Caution!"
+        else -> "Please type in a number!"
+    }
+    println(test)
+}
