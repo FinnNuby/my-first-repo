@@ -1,0 +1,14 @@
+fun main() {   
+    
+    println("Is PRX going to win VCT Champs?")
+
+    val probability = 99
+    val champs = when {
+        probability <= 40 -> "Unlikely" 
+        probability <= 80 -> "Likely"
+        probability < 100 -> " Yes"
+     else -> 
+        "What???"
+    }
+ println(champs)
+}
