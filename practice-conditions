@@ -1,0 +1,18 @@
+fun main() {
+    val weekday = "Saturday"
+    val hour = 10
+    
+    val isOpen = when (weekday) {
+        "Monday" -> hour in 8..10 
+        "Tuesday","Wednesday","Thursday" -> hour in 8..18 
+        "Friday" -> hour in 8..21 
+        "Saturday" -> hour in 9..16 
+        "Sunday" -> hour in 8..16 
+       else -> false 
+    }
+   
+    when {
+    isOpen == true -> println("Little Lemon is Open") 
+    else -> println("Little Lemon is closed")
+}
+}
