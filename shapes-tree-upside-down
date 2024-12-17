@@ -1,0 +1,14 @@
+fun main() {
+      for (stars in 1..5) {
+      val numberOfSpaces = stars + 1
+       for (stors in 1..numberOfSpaces) {
+       print(" ")
+}
+      val numberOfStars = 11 - stars * 2
+       for (stors in 1..numberOfStars) {
+       print("*")
+}
+ println()
+ }
+ }
+q
